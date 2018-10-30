@@ -1,0 +1,229 @@
+body {
+  padding-top: 3.5rem;
+}
+
+a {
+  color: #8416e2;
+  border-radius: 4px;
+}
+
+a:hover {
+  color: #4e23b3;
+  text-decoration: none;
+}
+
+hr {
+  max-width: 42em;
+  margin-top: 4em;
+}
+
+a.btn-primary:hover {
+  color: white;
+  background: #4e23b3;
+}
+
+.footer ul li a.text-muted {
+  font-size: 2em;
+}
+
+.footer > ul > li > a.text-muted:hover {
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: 600;
+}
+
+.navbar-custom {
+  background-color: #111;
+  border-bottom: 1px solid #c4a0ff;
+
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #999;
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: white;
+}
+
+.btn-primary {
+  background-color: #7224ee;
+  border: none;
+}
+
+.jumbotron {
+  color: white;
+  background: #8616e2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e23b3, #8616e2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e23b3, #8616e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+}
+
+.jumbotron h1 {
+  font-size: 4.8em;
+  line-height: 1.1em;
+  margin-bottom: 0.4em;
+}
+
+.jumbotron p {
+  font-size: 1.4em;
+}
+
+.jumbotron a.btn-primary {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.jumbotron a.btn-primary:hover {
+  color: #8416e2;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.contact {
+  color: white;
+  background: #8616e2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4e23b3, #8616e2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4e23b3, #8616e2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 0;
+  -webkit-clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(0 8%, 100% 0%, 100% 92%, 0% 100%);
+  padding-top: 4em;
+  padding-bottom: 4em;
+  margin-top: 8em;
+}
+
+.contact h1 {
+  color: white;
+  font-size: 3.6em;
+}
+
+.contact p {
+  color: white;
+  font-size: 1.4em;
+  font-weight: normal;
+}
+
+.contact a.btn-primary {
+  padding: 0.8em 1.4em;
+
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.contact a.btn-primary:hover {
+  color: #8416e2;
+  background-color: white;
+  border: 2px solid white;
+}
+
+.summary h1 {
+  font-size: 4.8em;
+}
+
+.summary p {
+  font-size: 1.6em;
+}
+
+.benefits {
+  min-height: 8em;
+}
+
+.stage {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.stage p {
+  font-size: 1.4em;
+}
+
+ul.checklist {
+  padding-left: 0;
+  margin-left: 1em;
+  margin-right: 1em;
+  list-style: none;
+  list-style-position: inside;
+}
+
+ul.checklist li {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 0;
+  font-size: 1.2em;
+  vertical-align: top;
+  margin-bottom: 0.8em;
+}
+
+ul.checklist li p {
+  display: inline-block;
+}
+
+ul.checklist li:before {
+  content: '';
+  display: inline-block;
+  min-width: 1.2em;
+  min-height: 1.2em;
+  padding: 0;
+  margin: 0;
+  margin-top: 4px;
+  margin-right: 1em;
+  background-image: url('img/checked.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.mapnik {
+  background-image: url('img/map-lighter.svg');
+  background-repeat: no-repeat;
+  background-position: 0em 0em;
+  background-size: 16em;
+  padding: 5em; 
+  padding-top: 3em; 
+  margin-top: 2em;
+  font-size: 1.2em;
+}
+
+
+.swing {
+  -webkit-animation: spin 8s infinite;
+  animation: spin 8s infinite;
+}
+
+@-webkit-keyframes spin {
+  90% {
+    transform: rotate(00deg);
+  }
+  95% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes spin {
+  90% {
+    transform: rotate(00deg);
+  }
+  95% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
